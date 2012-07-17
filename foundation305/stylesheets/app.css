@@ -14,19 +14,48 @@
 ----------------------------------------- */
 
 .no-padding {padding: 0;}
+.no-padding-left { padding-left: 0;}
+.no-padding-right { padding-right: 0;}
 .clr {width: 100%; height: 0; margin: 0; padding: 0; line-height: 0; font-size: 0; display: block;}
+.row {background: white; width: 1134px;}
+.red-div {background: red;}
+
+
+.outter-div {width: 100%; display: block; background: #e7e7e7;}
 
 /*menu*/
+.top-nav {margin-top: 73px;}
+.top-nav > li { float: right; line-height: 62px;}
 
 
 /* -----------------------------------------
-   Page Name 1
+   homepage
 ----------------------------------------- */
+.homepage-content-container { height: 323px; width: 100%; display: block; background: #bbbcbc;}
 
+.tagline-container { padding-left: 30px; }
 
-
+.content-row { padding-top: 65px; padding-bottom: 263px; }
 
 /* -----------------------------------------
    Page Name 2
 ----------------------------------------- */
+
+/* -----------------------------------------
+   Footer
+----------------------------------------- */
+.top-decor-bar {width: 100%; height: 28px; background: #1d1d1d; display: block;}
+.footer-content-container {width: 100%; background: #2f2f2f; display: block;}
+.bottom-decor-bar-one {width: 100%; height: 28px; background: #1d1d1d; display: block;}
+.bottom-decor-bar-two {width: 100%; height: 105px; background: #2f2f2f; display: block;}
+.bottom-nav-top-padding {margin-top: 15px;}
+
+/* Mobile Grid and Overrides ---------------------- */
+@media only screen and (max-width: 767px) { .top-nav > li { float: none; border: none; border-bottom: 1px solid #666;} 
+.tagline-container { padding-left: 30px; padding-right: 30px; }
+.bottom-padding { padding-bottom: 30px; }
+.no-padding {padding: 15px;}
+.no-padding-left { padding-left: 30px;}
+.no-padding-right { padding-right: 30px;}
+}
 
